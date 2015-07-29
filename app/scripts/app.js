@@ -5,8 +5,8 @@ var mountNode = document.getElementById('app');
 
 var TilesContainer = require('./ui/TilesContainer');
 
-var TodoApp = React.createClass({
-  displayName: 'TodoApp',
+var App = React.createClass({
+  displayName: 'App',
   getInitialState: function() {
     return {items: [], text: ''};
   },
@@ -29,5 +29,5 @@ var TodoApp = React.createClass({
 });
 
 
-React.render(<TodoApp />, mountNode);
+React.render(<App />, mountNode);
 

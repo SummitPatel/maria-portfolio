@@ -5,7 +5,8 @@ export default class Tile extends React.Component {
 
   render() {
     return (
-      <div className="tile">This is a tile</div>
+      // tile prop is inherited from parent TilesContainer
+      <div className="tile">{this.props.tile.name}</div>
     );
   }
 }
