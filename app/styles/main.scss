@@ -74,11 +74,14 @@ body {
     margin: 0.5%;
     border: 1px solid black;
 
-    &:nth-child(3n + 3) {
+    &:nth-child(3n + 3) ,&:nth-last-child(-n + 2) {
       flex: 0 1 100%;
-      color: green;
-      width: 25rem;
-      height: 25rem;
+      width: 40rem;
+      height: 40rem;
+    }
+
+    .content {
+      text-align: center;
     }
   }
 }

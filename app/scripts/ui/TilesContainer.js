@@ -9,7 +9,14 @@ export default class TilesContainer extends React.Component {
         { name: 'Tile 2' },
         { name: 'Tile 3' },
         { name: 'Tile 4' },
-        { name: 'Tile 5' }
+        { name: 'Tile 5' },
+        { name: 'Tile 6' },
+        { name: 'about me',
+          body: 'I’m so pretty and witty and Ugiaspid ucidusillabori niapeliatiis sequam faciis derei-cabo. Riandipsam diciditatatest eatis estrum rerum eaqui assecuståis renimi, offictem es ea quodigendam ullamet ipsum sequate mporeugiaspiducidus asse-custis renim.',
+          imageSrc: 'http://placehold.it/200x200'
+        },
+        { name: 'contact',
+          body: 'email lala@lalapo.com linkedin behance' }
       ]
     }
   }
