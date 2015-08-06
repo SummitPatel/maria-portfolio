@@ -1,3 +1,3 @@
 Todo: 
 
-add filler content for footer
+fix string injection not being put into new line
