@@ -8,7 +8,8 @@ export default class TilesContainer extends React.Component {
         { name: 'Tile 1' },
         { name: 'Tile 2' },
         { name: 'Tile 3' },
-        { name: 'Tile 4' }
+        { name: 'Tile 4' },
+        { name: 'Tile 5' }
       ]
     }
   }
@@ -25,7 +26,7 @@ export default class TilesContainer extends React.Component {
       );
     }
     return(
-      <div className="tilesContainer">
+      <div className="tiles-container">
         {tilesComponents}
       </div>
     );
