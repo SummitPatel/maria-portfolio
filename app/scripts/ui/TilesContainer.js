@@ -16,15 +16,18 @@ export default class TilesContainer extends React.Component {
           imageSrc: 'http://placehold.it/200x200'
         },
         { name: 'contact',
-          body: 'email lala@lalapo.com linkedin behance' }
+          email: 'email lala@lalapo.com',
+          linkedin: 'linkedin',
+          behance: 'behance',
+        }
       ]
     }
   }
 
   render() {
-    let tilesComponents = [];
+    let tiles = [];
     for(var i = 0; i < this.state.tiles.length; i++) {
-      tilesComponents.push(
+      tiles.push(
         <Tile
           // these get passed as props to each tile
           tile={this.state.tiles[i]}
@@ -34,7 +37,7 @@ export default class TilesContainer extends React.Component {
     }
     return(
       <div className="tiles-container">
-        {tilesComponents}
+        {tiles}
       </div>
     );
   }
